@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Katalog</title>
+	<!-- Add site Favicon -->
+	<link rel="icon" href="assets/img/logo/icon.png" sizes="32x32" />
+	<link rel="icon" href="assets/img/logo/icon.png" sizes="192x192" />
+	<link rel="apple-touch-icon" href="assets/img/logo/icon.png" />
+	<meta name="msapplication-TileImage" content="assets/img/logo/icon.png" />
+
+	<!-- open graph -->
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Batik Pekalongan - Online shop template" />
+	<meta property="og:url" content="https://hendikaseptio.github.io/online-shop-batik/index.html" />
+	<meta property="og:site_name" content="Batik Pekalongan" />
+	
+	<!-- all css -->
+	<link rel="stylesheet" href="assets/css/app.css">
+	<link rel="stylesheet" href="assets/css/plugins/animate.css">
+	<link rel="stylesheet" href="assets/css/plugins/aos.css">
+	<link rel="stylesheet" href="assets/css/plugins/easyzoom.css">
+	<link rel="stylesheet" href="assets/css/plugins/jquery-ui.css">
+	<link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
+	<link rel="stylesheet" href="assets/css/plugins/nice-select.css">
+	<link rel="stylesheet" href="assets/css/plugins/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/plugins/owl.theme.default.min.css">
+	<link rel="stylesheet" href="assets/css/plugins/select2.min.css">
+	<link rel="stylesheet" href="assets/css/plugins/slinky.css">
+	<!-- <link rel="stylesheet" href="assets/css/plugins/swiper.min.css"> -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" href="assets/css/vendor/bootstrap-custom.css">
+	<link rel="stylesheet" href="assets/css/vendor/bootstrap-icons.min.css">
+</head>
+<body>
+	<header id="navbar_top">
+		<nav class="navbar navbar-expand-lg bg-white py-3">
+			<div class="container">
+				<a class="navbar-brand" href="index.html"><img src="assets/img/logo/logo-gold.png" alt="logo" width="200px"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav m-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="tentang-kami.html">Tentang Kami</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Produk
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="batik-tulis.html">Batik Tulis</a></li>
+								<li><a class="dropdown-item" href="batik-seragam.html">Batik Seragam</a></li>
+								<li><a class="dropdown-item" href="batik-printing.html">Batik Printing</a></li>
+								<li><a class="dropdown-item" href="batik-kustom.html">Batik Kustom</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="kemitraan.html">Kemitraan Batik</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="katalog.html">Katalog</a>
+						</li>
+					</ul>
+					<div class="ms-auto">
+						<div class="btn btn-primary" id="google_translate_element"></div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<section id="start" class="pt-5 pb-5 bg-light">
+		<div class="container">
+			<h1 class="text-uppercase">Katalog</h1>
+			<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="#">Home</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Katalog</li>
+				</ol>
+			</nav>
+		</div>
+	</section>
+	<section class="py-5">
+		<div class="container">
+			<img src="assets/img/banner/promo.png" class="img-fluid w-100" alt="">
+		</div>
+	</section>
+	<section id="product-list">
+		<div class="container">
+			<div class="row justify-content-between align-items-end">
+				<div class="col-auto">
+					<h3>Kategori</h3>
+					<b>Semua Ketegori</b>
+				</div>
+				<div class="col-3 ms-auto">					
+					<select name="kategori" id="kategori" class="form-control">
+						<option value="terbaru">Terbaru</option>
+						<option value="harga tertinggi">Harga Tertinggi</option>
+						<option value="harga terendah">Harga Terendah</option>
+					</select>
+				</div>
+				<hr class="my-3">
+				<div class="col-12">
+					<a href="#" class="btn btn-outline-primary">BATIK PRIA</a>
+					<a href="#" class="btn btn-outline-primary">BATIK WANITA</a>
+					<a href="#" class="btn btn-outline-primary">BATIK COUPLE</a>
+					<a href="#" class="btn btn-outline-primary">BATIK SERAGAM</a>
+					<a href="#" class="btn btn-outline-primary">DISKON</a>
+					<a href="#" class="btn btn-outline-primary">BATIK ANAK</a>
+				</div>
+			</div>
+			<div class="col-8 m-auto my-5">
+				<form action="" method="get">
+					<div class="input-group mb-3">
+						<input type="text" id="cari" class="form-control" placeholder="Cari" aria-label="Cari" aria-describedby="btncari">
+						<button class="btn btn-outline-primary" type="button" id="btncari"><i class="bi bi-search"></i> Cari</button>
+					</div>
+				</form>
+			</div>
+			<div class="row mb-4">
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 p-3">
+					<div class="card border">
+						<a href="detail-produk.html"><img src="https://radarpekalongan.id/wp-content/uploads/2023/06/laskala-jajan-terozz-edited.webp" alt="" class="card-img-top object-fit fit-top" height="300px" ></a>
+						<div class="card-body">
+							<small>Rp 290.000</small>
+							<h5><a href="detail-produk.html" class="text-decoration-none link-dark">MOTIF ALOGA PANJANG BATIK</a></h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 p-3">
+					<div class="card border">
+						<a href="detail-produk.html"><img src="https://laz-img-sg.alicdn.com/p/2d593062a9c2551a89d90734caa37fe0.png" alt="" class="card-img-top object-fit fit-top" height="300px" ></a>
+						<div class="card-body">
+							<small>Rp 290.000</small>
+							<h5><a href="detail-produk.html" class="text-decoration-none link-dark">MOTIF ALOGA PANJANG BATIK</a></h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 p-3">
+					<div class="card border">
+						<a href="detail-produk.html"><img src="https://matahari-textile.com/wp-content/uploads/2020/05/Taruna_1.jpg" alt="" class="card-img-top object-fit fit-top" height="300px" ></a>
+						<div class="card-body">
+							<small>Rp 290.000</small>
+							<h5><a href="detail-produk.html" class="text-decoration-none link-dark">MOTIF ALOGA PANJANG BATIK</a></h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 p-3">
+					<div class="card border">
+						<a href="detail-produk.html"><img src="https://assets.ayobandung.com/crop/0x0:0x0/750x0/webp/photo/2023/07/25/IMG_20230725_141123-4137691908.jpg" alt="" class="card-img-top object-fit fit-top" height="300px" ></a>
+						<div class="card-body">
+							<small>Rp 290.000</small>
+							<h5><a href="detail-produk.html" class="text-decoration-none link-dark">MOTIF ALOGA PANJANG BATIK</a></h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 p-3">
+					<div class="card border">
+						<a href="detail-produk.html"><img src="https://www.matahari.com/media/catalog/product/6/4/64319860_1_4.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=621&width=485&canvas=485:621" alt="" class="card-img-top object-fit fit-top" height="300px" ></a>
+						<div class="card-body">
+							<small class=" text-danger text-decoration-line-through text-secondary">Rp 290.000</small>
+							<small>Rp 250.000</small>
+							<h5><a href="detail-produk.html" class="text-decoration-none link-dark">MOTIF ALOGA PANJANG BATIK</a></h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 p-3">
+					<div class="card border">
+						<a href="detail-produk.html"><img src="https://cdn.istyle.im/images/product/web/33/31/00/01/0/000001003133_01_800.jpg" alt="" class="card-img-top object-fit fit-top" height="300px" ></a>
+						<div class="card-body">
+							<small>Rp 290.000</small>
+							<h5><a href="detail-produk.html" class="text-decoration-none link-dark">MOTIF ALOGA PANJANG BATIK</a></h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 p-3">
+					<div class="card border">
+						<a href="detail-produk.html"><img src="https://images.tokopedia.net/img/cache/700/hDjmkQ/2023/3/10/22f93a29-486b-4219-9f8a-460978478d4c.jpg" alt="" class="card-img-top object-fit fit-top" height="300px" ></a>
+						<div class="card-body">
+							<small>Rp 290.000</small>
+							<h5><a href="detail-produk.html" class="text-decoration-none link-dark">MOTIF ALOGA PANJANG BATIK</a></h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 p-3">
+					<div class="card border">
+						<a href="detail-produk.html"><img src="https://img.ws.mms.shopee.co.id/sg-11134201-22110-k2tacimkxmjv11" alt="" class="card-img-top object-fit fit-top" height="300px" ></a>
+						<div class="card-body">
+							<small>Rp 290.000</small>
+							<h5><a href="detail-produk.html" class="text-decoration-none link-dark">MOTIF ALOGA PANJANG BATIK</a></h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			<nav aria-label="Page navigation example">
+				<ul class="pagination justify-content-center">
+					<li class="page-item"><a class="page-link" href="#">Sebelumnya</a></li>
+					<li class="page-item active"><a class="page-link" href="#">1</a></li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item border-end"><a class="page-link" href="#">Berikutnya</a></li>
+				</ul>
+			</nav>
+		</div>
+	</section>
+	<footer class="bg-dark text-white">
+		<div class="container">
+			<div class="row align-items-end">
+				<div class="col-md-6 p-3">
+					<p>Saatnya tampil stylish dan trendy dengan batik modern. Bahan berkualitas, inovasi model, harga ramah kantong dan bergaransi.</p>
+					<div class="contact-info mb-2"><i class="me-2 bi bi-telephone"></i> +62 856-0076-3166</div>
+					<div class="contact-info mb-2"><i class="me-2 bi bi-envelope-open"></i> batikpekalongan@gmail.com</div>
+					<div class="contact-info mb-2"><i class="me-2 bi bi-pin-map"></i> Comal, Pemalang, Jawa Tengah, Indonesia</div>
+				</div>
+				<div class="col-md-6 p-3">
+					<div class="d-flex w-100 justify-content-start justify-content-sm-end">
+						<a href="#" class="fs-5 m-2 text-white"><i class="bi bi-facebook"></i></a>
+						<a href="#" class="fs-5 m-2 text-white"><i class="bi bi-instagram"></i></a>
+						<a href="#" class="fs-5 m-2 text-white"><i class="bi bi-youtube"></i></a>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="d-flex">
+			<small>hak cipta © Batik Pekalongan 2023 Seluruh hak cipta | tema ini dibuat dengan <i class="bi bi-heart-fill text-danger"></i> </small>
+			<small class="ms-auto"><a href="#start" class="text-decoration-none text-white">kembali ke atas <i class="bi bi-arrow-up"></i></a></small> 
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+	<script src="assets/js/scroll-to-topnav.js"></script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({pageLanguage: 'id', 
+				layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+			}, 'google_translate_element');
+		}
+	</script>
+</body>
+</html>
