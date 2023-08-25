@@ -3,27 +3,51 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Bootstrap demo</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<title>Batik Pekalongan</title>
+	<!-- open graph -->
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Batik Pekalongan - Online shop template" />
+	<meta property="og:url" content="https://hendikaseptio.github.io/online-shop-batik/index.html" />
+	<meta property="og:site_name" content="Batik Pekalongan" />
+	<!-- Add site Favicon -->
+    <link rel="icon" href="assets/img/logo/icon.png" sizes="32x32" />
+    <link rel="icon" href="assets/img/logo/icon.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="assets/img/logo/icon.png" />
+    <meta name="msapplication-TileImage" content="assets/img/logo/icon.png" />
+	<!-- all css -->
 	<link rel="stylesheet" href="assets/css/app.css">
+	<link rel="stylesheet" href="assets/css/plugins/animate.css">
+	<link rel="stylesheet" href="assets/css/plugins/aos.css">
+	<link rel="stylesheet" href="assets/css/plugins/easyzoom.css">
+	<link rel="stylesheet" href="assets/css/plugins/jquery-ui.css">
+	<link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
+	<link rel="stylesheet" href="assets/css/plugins/nice-select.css">
+	<link rel="stylesheet" href="assets/css/plugins/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/plugins/owl.theme.default.min.css">
+	<link rel="stylesheet" href="assets/css/plugins/select2.min.css">
+	<link rel="stylesheet" href="assets/css/plugins/slinky.css">
+	<!-- <link rel="stylesheet" href="assets/css/plugins/swiper.min.css"> -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
+	<link rel="stylesheet" href="assets/css/vendor/bootstrap-custom.css">
+	<link rel="stylesheet" href="assets/css/vendor/bootstrap-icons.min.css">
 </head>
-<body id="google_translate_element">
-	<header>
-		<nav class="navbar navbar-expand-lg bg-white">
+<body >
+	<header id="navbar_top">
+		<nav class="navbar navbar-expand-lg bg-white py-3">
 			<div class="container">
-				<a class="navbar-brand" href="index.html">Batik Pekalongan</a>
+				<a class="navbar-brand" href="index.html"><img src="assets/img/logo/logo-gold.png" alt="logo" width="200px"></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<ul class="navbar-nav m-auto mb-2 mb-lg-0">
 						<li class="nav-item">
 							<a class="nav-link active" aria-current="page" href="index.html">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="tentang-kami">Tentang Kami</a>
+							<a class="nav-link" href="tentang-kami.html">Tentang Kami</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,6 +66,9 @@
 							<a class="nav-link" href="katalog.html">Katalog</a>
 						</li>
 					</ul>
+					<div class="ms-auto">
+						<div class="btn btn-primary" id="google_translate_element"></div>
+					</div>
 				</div>
 			</div>
 		</nav>
@@ -52,7 +79,7 @@
 				<div class="col-md-6 p-2">
 					<h1>Batik Pekalongan Solusi Tampil Elegan di Momen Terbaikmu</h1>
 					<p class="text-secondary">Batik Pekalongan pilihan batik terbaik di Kota Pekalongan, telah dipercaya oleh ribuan customers. Buktikan sendiri kualitasnya!</p>
-					<a href="catalog.html" class="btn btn-lg btn-primary mt-5"><i class="bi bi-shop"></i> Lihat Katalog Batik Pekalongan</a>
+					<a href="catalog.html" class="btn btn-lg btn-primary mt-5 rounded-0"><i class="bi bi-shop"></i> Lihat Katalog Batik Pekalongan</a>
 				</div>
 				<div class="col-md-6 p-2">
 					<div id="banner-img" class="mt-5 mt-md-0 pt-5 pt-md-0 mx-auto">
@@ -65,149 +92,178 @@
 	</section>
 	<section class="">
 		<div class="container">
-			<div class="row align-items-center flex-sm-row-reverse">
-				<div class="col-md-7 ms-auto">
-					<h2>KUNJUNGI E-ECOMMERCE BATIK PEKALONGAN</h2>
-					<p>Kami selalu ada untuk menemani anda di berbagai jenis e-commerce dengan produk-produk kami yang berkualias</p>
+			<div class="row flex-sm-row-reverse align-items-md-center">
+				<div class="col-md-6">
+					<h1>KUNJUNGI E-ECOMMERCE BATIK PEKALONGAN</h1>
+					<p class="text-secondary">Kami selalu ada untuk anda, apapun e-commerce favorit anda Batik Pekalongan hadir untuk memberikan produk terbaik dengan bahan yang berkualitas</p>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6">
 					<div class="row">
-						<div class="col-4 p-1">
-							<div class="card card-body h-100 border-0">
-							<img class="img-fluid" src="https://i0.wp.com/emping.web.id/wp-content/uploads/Shopee-Logo-1.png?ssl=1" alt="">
-							</div>
+						<div class="col-3 col-sm-3 col-md-5 m-auto">
+							<a href="#" class=""><img src="assets/img/ecommerce/tokopedia.png" class="img-fluid" alt="">
+							</a>
 						</div>
-						<div class="col-4 p-1">
-							<div class="card card-body h-100 border-0">
-							<img class="img-fluid" src="https://assets.tokopedia.net/assets-tokopedia-lite/v2/arael/kratos/36c1015e.png" alt="">
-							</div>
+						<div class="col-3 col-sm-3 col-md-5 m-auto">
+							<a href="#" class=""><img src="assets/img/ecommerce/shopee.png" class="img-fluid" alt="">
+							</a>
 						</div>
-						<div class="col-4 p-1">
-							<div class="card card-body h-100 border-0">
-							<img class="img-fluid" src="https://www.shinpo.co.id/wp-content/uploads/2021/10/lazada-logo-1.png" alt="">
-							</div>
+						<div class="col-3 col-sm-3 col-md-5 m-auto">
+							<a href="#" class=""><img src="assets/img/ecommerce/lazada.png" class="img-fluid" alt="">
+							</a>
 						</div>
-						<div class="col-4 p-1">
-							<div class="card card-body h-100 border-0">
-							<img class="img-fluid" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieV7emUBzS46dGZ2s-CAd6AAUF3bPtRtgBjzfhKYz6in15PMBnrR8T0t-baXpfuX3Rdzr0hzx3HQZ8GATo8zPXz5epkGeJWezrpozmul0fmE742QiVPLaJUG0UObC4uE0RKXJkzz4uKMSUJOfD3pzhQNV1xKYGMkRrSnPIZO4QkVak8cXjy9qvkdpO/s1600/download.png" alt="">
-							</div>
+						<div class="col-3 col-sm-3 col-md-5 m-auto">
+							<a href="#" class=""><img src="assets/img/ecommerce/tiktokshop.png" class="img-fluid" alt="">
+							</a>
 						</div>
-						<div class="col-4 p-1">
-							<div class="card card-body h-100 border-0">
-							<img class="img-fluid" src="https://serenityindonesia.com/wp-content/uploads/2021/10/toppng.com-logo-blibli-200x200-1.png" alt="">
-							</div>
-						</div>
-						<div class="col-4 p-1">
-							<div class="card card-body h-100 border-0">
-							<img class="img-fluid" src="https://e-katalog.lkpp.go.id/katalog/produk/download/gambar/933204591" alt="">
-							</div>
-						</div>
-					</div>
+					</div>	
 				</div>
-				
 			</div>
 		</div>
 	</section>
-	<section id="about" class="text-white">
+	<section id="fitur" class="p-0">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 p-2">
+					<div class="d-flex">
+						<div class="me-3">
+							<div class="d-flex justify-content-center align-items-center rounded-circle bg-light" style="width: 70px;height:70px;">
+								<i class="text-primary p-0 m-0 bi bi-star fs-3"></i>
+							</div>
+						</div>
+						<div>
+							<b class="text-secondary">Bahan Berkualitas</b>
+							<p>Bahan awet & tidak mudah luntur</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 p-2">
+					<div class="d-flex">
+						<div class="me-3">
+							<div class="d-flex justify-content-center align-items-center rounded-circle bg-light" style="width: 70px;height:70px;">
+								<i class="text-primary p-0 m-0 bi bi-palette2 fs-3"></i>
+							</div>
+						</div>
+						<div>
+							<b class="text-secondary">Unik</b>
+							<p>Kami menyajikan batik bercorak indah</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 p-2">
+					<div class="d-flex">
+						<div class="me-3">
+							<div class="d-flex justify-content-center align-items-center rounded-circle bg-light" style="width: 70px;height:70px;">
+								<i class="text-primary p-0 m-0 bi bi-shield-check fs-3"></i>
+							</div>
+						</div>
+						<div>
+							<b class="text-secondary">Keamanan Pembyaran</b>
+							<p>jaminan uang kembali</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 p-2">
+					<div class="d-flex">
+						<div class="me-3">
+							<div class="d-flex justify-content-center align-items-center rounded-circle bg-light" style="width: 70px;height:70px;">
+								<i class="text-primary p-0 m-0 bi bi-truck fs-3"></i>
+							</div>
+						</div>
+						<div>
+							<b class="text-secondary">Pengiriman Cepat</b>
+							<p>Pengiriman cepat dalam Kota Pekalongan</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="p-0">
+		<div class="container">
+			<img src="assets/img/banner/promo.png" class="img-fluid w-100" alt="">
+		</div>
+	</section>
+	<section id="product">
+		<div class="container text-center">
+			<h2 class="text-uppercase">Batik Pekalongan Telah Dipercaya Oleh Berbagai Kalangan</h2>
+			<p class="text-secondary mb-5">Siapapun Anda dan dimanapun Anda, Anda berhak mendapatkan yang terbaik!</p>
+		</div>
+		<div class="swiper mySwiper mt-5">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide mx-2">
+					<div class="card">
+						<img src="https://www.batikprabuseno.com/wp-content/uploads/2022/11/Wanita.jpg" alt="">
+						<div class="overlay">
+							<span class="fs-4 text-uppercase">Batik Wanita</span>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide mx-2">
+					<div class="card">
+						<img src="https://www.batikprabuseno.com/wp-content/uploads/2022/11/Batik-Prabuseno-1-2-1.jpg" alt="">
+						<div class="overlay">
+							<span class="fs-4 text-uppercase">Batik Pria</span>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide mx-2">
+					<div class="card">
+						<img src="https://www.batikprabuseno.com/wp-content/uploads/2022/11/Couple.jpg" alt="">
+						<div class="overlay">
+							<span class="fs-4 text-uppercase">Batik Couple</span>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide mx-2">
+					<div class="card">
+						<img src="https://down-id.img.susercontent.com/file/sg-11134201-22110-dut3qjcdq0jv36" alt="">
+						<div class="overlay">
+							<span class="fs-4 text-uppercase">Batik Anak</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+		<div class="text-center my-4">
+			<a href="#" class="btn btn-lg btn-primary rounded-0"><i class="bi bi-shop"></i> Lihat Katalog</a>
+		</div>
+	</section>
+	<section >
+		<div class="container">
+			<div class="row align-items-start">
+				<div class="col-md-5">
 					<img src="https://www.batikprabuseno.com/wp-content/uploads/2022/11/Batik-Prabuseno-4-1024x684.jpg" alt="" class="img-fluid shadow mb-3">
 				</div>
-				<div class="col-md-6">
-					<h2>Tentang Batik Pekalongan</h2>
+				<div class="col-md-7 ps-md-5">
+					<h2 class="text-uppercase">Tentang Batik Pekalongan</h2>
 					<p>Bertekad untuk melestarikan budaya Indonesia, kami menciptakan produk batik terbaik untuk millenial agar merasa nyaman dan percaya diri menggunakan batik sebagai simbol keberagaman.</p>
 					<p>Batik Pekalongan didesain secara khusus dengan corak, model, dan warna pilihan yang tidak pasaran. Sebagai batik terbaik di Solo, kami terus berinovasi mengembangkan produk berkualitas untuk nusantara.</p>
 					<a href="#" class="btn btn-primary"><i class="bi bi-search-heart"></i> Kenali Kami Lebih Dalam</a>
 				</div>
 			</div>
-			<h3 class="mt-5">Lokasi Kami</h3>
-			<iframe class="mt-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63375.28590248677!2d109.6745035!3d-6.895941999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70242ca490fe13%3A0xc0c68a126b258cb6!2sPekalongan%2C%20Kota%20Pekalongan%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1691765355082!5m2!1sid!2sid" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-		</div>
-	</section>
-	<section id="fitur">
-		<div class="container">
-			<h2 class="text-center mb-5">KEUNGGULAN KAMI</h2>
-			<div class="row">
-				<div class="col-6 col-sm-6 col-md-4 col-lg-3 p-2">
-					<div class="card card-body border-0">
-						<i class="text-primary bi bi-star fs-1"></i>
-						<b class="text-secondary">Bahan Berkualitas</b>
+			<div class="col-9 m-auto text-center">
+				<h2 class="mt-5 text-uppercase">Bergabunglah dengan kami!</h2>
+				<p>Dapatkan update produk terbaru dan tawaran spesial lainya melalui email hanya dengan berlangganan di kami secara gratis</p>
+				<form action="" class="row m-auto p-3">
+					<div class="col-7">
+						<input type="text" class="form-control" placeholder="Masukkan email kamu !">
 					</div>
-				</div>
-				<div class="col-6 col-sm-6 col-md-4 col-lg-3 p-2">
-					<div class="card card-body border-0">
-						<i class="text-primary bi bi-palette2 fs-1"></i>
-						<b class="text-secondary">Model dan Corak Unik</b>
+					<div class="col-auto">
+						<button class="btn btn-primary">Langganan Sekarang</button>
 					</div>
-				</div>
-				<div class="col-6 col-sm-6 col-md-4 col-lg-3 p-2">
-					<div class="card card-body border-0">
-						<i class="text-primary bi bi-shield-check fs-1"></i>
-						<b class="text-secondary">Keamanan Pembyaran</b>
-					</div>
-				</div>
-				<div class="col-6 col-sm-6 col-md-4 col-lg-3 p-2">
-					<div class="card card-body border-0">
-						<i class="text-primary bi bi-truck fs-1"></i>
-						<b class="text-secondary">Pengiriman Cepat</b>
-					</div>
-				</div>
+				</form>
 			</div>
 		</div>
-	</section>
-	<section id="product">
-		<div class="container">
-			<h2 class="text-uppercase">Batik Pekalongan Telah Dipercaya Oleh Berbagai Kalangan</h2>
-			<p class="text-secondary">Siapapun Anda dan dimanapun Anda, Anda berhak mendapatkan yang terbaik!</p>
-			<div class="row">
-				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 p-2">
-					<div class="card">
-						<img src="https://www.batikprabuseno.com/wp-content/uploads/2022/11/Batik-Prabuseno-1-2-1.jpg" alt="">
-						<div class="card-body overlay">
-						<b>Batik Pria</b>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 p-2">
-					<div class="card">
-						<img src="https://www.batikprabuseno.com/wp-content/uploads/2022/11/Wanita.jpg" alt="">
-						<div class="card-body overlay">
-						<b>Batik Wanita</b>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 p-2">
-					<div class="card">
-						<img src="https://www.batikprabuseno.com/wp-content/uploads/2022/11/Couple.jpg" alt="">
-						<div class="card-body overlay">
-						<b>Batik Couple</b>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 p-2">
-					<div class="card">
-						<img src="https://down-id.img.susercontent.com/file/sg-11134201-22110-dut3qjcdq0jv36" alt="">
-						<div class="card-body overlay">
-						<b>Batik Anak</b>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="text-center my-4">
-				<a href="#" class="btn btn-primary"><i class="bi bi-shop"></i> Lihat Katalog</a>
-			</div>
-		</div>
-
 	</section>
 	<footer class="bg-dark text-white">
 		<div class="container">
 			<div class="row align-items-end">
 				<div class="col-md-6 p-3">
-					<p>Saatnya tampil stylish dan trendy dengan batik modern Prabuseno. Bahan berkualitas, inovasi model, harga ramah kantong dan bergaransi.</p>
-					<div class="contact-info"><i class="bi bi-telephone"></i> +62 853-2683-1993</div>
-					<div class="contact-info"><i class="bi bi-envelope-open"></i> hendikaseptio50@gmail.com</div>
-					<div class="contact-info"><i class="bi bi-pin-map"></i> Comal, Pemalang, Jawa Tengah, Indonesia</div>
+					<p>Saatnya tampil stylish dan trendy dengan batik modern. Bahan berkualitas, inovasi model, harga ramah kantong dan bergaransi.</p>
+					<div class="contact-info mb-2"><i class="me-2 bi bi-telephone"></i> +62 853-2683-1993</div>
+					<div class="contact-info mb-2"><i class="me-2 bi bi-envelope-open"></i> hendikaseptio50@gmail.com</div>
+					<div class="contact-info mb-2"><i class="me-2 bi bi-pin-map"></i> Comal, Pemalang, Jawa Tengah, Indonesia</div>
 				</div>
 				<div class="col-md-6 p-3">
 					<div class="d-flex w-100 justify-content-start justify-content-sm-end">
@@ -218,15 +274,36 @@
 				</div>
 			</div>
 			<hr>
-			<small>hak cipta © Batik Pekalongan 2023 Seluruh hak cipta | tema ini dibuat dengan <i class="bi bi-heart-fill text-danger"></i> oleh <a href="#" class="link-primary">Hendika</a> <a href="#start" class="text-decoration-none text-white">kembali ke atas <i class="bi bi-arrow-up"></i></a></small> 
-			<script type="text/javascript">
-				function googleTranslateElementInit() {
-					new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-				}
-			</script>
+			<div class="d-flex">
+			<small>hak cipta © Batik Pekalongan 2023 Seluruh hak cipta | tema ini dibuat dengan <i class="bi bi-heart-fill text-danger"></i> </small>
+			<small class="ms-auto"><a href="#start" class="text-decoration-none text-white">kembali ke atas <i class="bi bi-arrow-up"></i></a></small> 
+				
+			</div>
 		</div>
 	</footer>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+	<script src="assets/js/scroll-to-topnav.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			effect: "coverflow",
+			grabCursor: true,
+			centeredSlides: true,
+			slidesPerView: 3,
+			coverflowEffect: {
+				rotate: 50,
+				stretch: 0,
+				depth: 200,
+				modifier: 1,
+				slideShadows: false,
+			},
+			// pagination: {
+			// 	el: ".swiper-pagination",
+			// },
+		});
+	</script>
 </body>
 </html>
