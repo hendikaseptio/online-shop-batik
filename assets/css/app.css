@@ -224,14 +224,8 @@ footer {
 	--bs-btn-disabled-border-color: #1a1a1a!important;
 }
 
-.translated-ltr body {
-	position: relative;
-	min-height: 100%;
-	top: 0!important;
-	padding-top: 0px;
-}
 .goog-te-gadget-simple {
-	background-color: none !important;
+	background-color: transparent !important;
 	border: none !important;
 }
 .goog-te-gadget-icon {
