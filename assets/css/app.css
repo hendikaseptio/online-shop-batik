@@ -92,6 +92,9 @@ section#product .card img {
 .fit-center {
 	object-position: center;
 }
+.fit-top {
+	object-position: top;
+}
 
 #galery .galery-items {
 	display: block;
@@ -120,7 +123,6 @@ section#product .card img {
 #galery .galery-items .text:hover {
 	backdrop-filter: blur(10px) brightness(0.3);
 }
-
 footer {
 	background-image: url('https://www.rinso.com/images/h0nadbhvm6m4/17RmARrAatDIJ0x2DxsGSc/68f28770f0815e43ef8408c6751dcefb/MDIuX1JpbnNvX09rdG9iZXJfSGVhZGVyLmpwZw/1000w-668h/pembatik-pemula.jpg');
 	background-color: var(--bs-blue);
@@ -128,27 +130,113 @@ footer {
 	background-size: cover;
 	background-blend-mode: multiply;
 }
-
-
-.swiper {
-	width: 100%;
-	height: 500px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+#size-selector input[type="radio"] {
+	display: none;
+}
+#size-selector label[class*="size-"] {
+	padding: .5rem 1rem;
+	background-color: var(--bs-light);
+}
+#size-selector .s:checked ~ .size-s,
+#size-selector .m:checked ~ .size-m,
+#size-selector .l:checked ~ .size-l,
+#size-selector .xl:checked ~ .size-xl,
+#size-selector .xxl:checked ~ .size-xxl {
+	background-color: var(--bs-primary);
+/*	color: ;*/
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,0.15) !important;
 }
 
-/*.swiper-wrapper {
-	width: 100%;
-	height: 400px;
+.swiper-thumb, .swiper-preview, .swiper-wrapper {
+	height: 450px;
 }
-*/
-.swiper-slide {
-	background-position: center;
-	background-size: cover;
+.swiper-thumb {
+	display: flex;
+	justify-content: space-around;
+}
+.swiper-thumb .swiper-slide img {
+	width: 100%;
+	height: 100%;
 }
 
-/*.swiper-slide img {
-	display: block;
-	width: 100%;
-	height: 500px;
-}*/
+.btn-shopee {
+	--bs-btn-color: #fff !important;
+	--bs-btn-bg: #f44f31 !important;
+	--bs-btn-border-color: #f44f31 !important;
+	--bs-btn-hover-color: #fff !important;
+	--bs-btn-hover-bg: #c43920 !important;
+	--bs-btn-hover-border-color: #c43920 !important;
+	--bs-btn-focus-shadow-rgb: 60, 153, 110 !important;
+	--bs-btn-active-color: #fff !important;
+	--bs-btn-active-bg: #c43920 !important;
+	--bs-btn-active-border-color: #13653f !important;
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important;
+	--bs-btn-disabled-color: #fff !important;
+	--bs-btn-disabled-bg: #f44f31 !important;
+	--bs-btn-disabled-border-color: #f44f31 !important;
+}
+.btn-tokopedia {
+	--bs-btn-color: #fff !important;
+	--bs-btn-bg: #439341 !important;
+	--bs-btn-border-color: #439341 !important;
+	--bs-btn-hover-color: #fff !important;
+	--bs-btn-hover-bg: #2a6828 !important;
+	--bs-btn-hover-border-color: #2a6828 !important;
+	--bs-btn-focus-shadow-rgb: 60, 153, 110 !important;
+	--bs-btn-active-color: #fff !important;
+	--bs-btn-active-bg: #2a6828 !important;
+	--bs-btn-active-border-color: #13653f !important;
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important;
+	--bs-btn-disabled-color: #fff !important;
+	--bs-btn-disabled-bg: #439341 !important;
+	--bs-btn-disabled-border-color: #439341 !important;
+}
+.btn-lazada {
+	--bs-btn-color: #fff !important;
+	--bs-btn-bg: #16196e !important;
+	--bs-btn-border-color: #16196e !important;
+	--bs-btn-hover-color: #fff !important;
+	--bs-btn-hover-bg: #121562 !important;
+	--bs-btn-hover-border-color: #121562 !important;
+	--bs-btn-focus-shadow-rgb: 60, 153, 110 !important;
+	--bs-btn-active-color: #fff !important;
+	--bs-btn-active-bg: #121562 !important;
+	--bs-btn-active-border-color: #13653f !important;
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important;
+	--bs-btn-disabled-color: #fff !important;
+	--bs-btn-disabled-bg: #16196e !important;
+	--bs-btn-disabled-border-color: #16196e !important;
+}
+.btn-tiktokshop {
+	--bs-btn-color: #fff !important;
+	--bs-btn-bg: #1a1a1a!important;
+	--bs-btn-border-color: #1a1a1a!important;
+	--bs-btn-hover-color: #fff !important;
+	--bs-btn-hover-bg: #080808 !important;
+	--bs-btn-hover-border-color: #080808 !important;
+	--bs-btn-focus-shadow-rgb: 60, 153, 110 !important;
+	--bs-btn-active-color: #fff !important;
+	--bs-btn-active-bg: #080808 !important;
+	--bs-btn-active-border-color: #13653f !important;
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important;
+	--bs-btn-disabled-color: #fff !important;
+	--bs-btn-disabled-bg: #1a1a1a!important;
+	--bs-btn-disabled-border-color: #1a1a1a!important;
+}
+
+.translated-ltr body {
+	position: relative;
+	min-height: 100%;
+	top: 0!important;
+	padding-top: 0px;
+}
+iframe.skiptranslate {
+	display: none;
+}
+.goog-te-gadget-simple {
+	background-color: none !important;
+	border: none !important;
+}
+.goog-te-gadget-icon {
+	display: none;
+}
