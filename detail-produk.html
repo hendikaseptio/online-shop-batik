@@ -159,22 +159,22 @@
                             <div class="bg-white me-2 rounded-circle">
                                 <img src="assets/img/ecommerce/tiktokshop.png" alt="" width="30px">
                             </div>
-                            Tiktok Shop</a>
+                        Tiktok Shop</a>
                         <a href="#" class="d-inline-flex align-items-center btn btn-tokopedia m-1"> 
                             <div class="bg-white me-2 rounded-circle">
                                 <img src="assets/img/ecommerce/tokopedia.png" alt="" width="30px">
                             </div>
-                            Tokopedia</a>
+                        Tokopedia</a>
                         <a href="#" class="d-inline-flex align-items-center btn btn-shopee m-1"> 
                             <div class="bg-white me-2 rounded-circle">
                                 <img src="assets/img/ecommerce/shopee.png" alt="" width="30px">
                             </div>
-                            Shopee</a>
+                        Shopee</a>
                         <a href="#" class="d-inline-flex align-items-center btn btn-lazada m-1"> 
                             <div class="bg-white me-2 rounded-circle">
                                 <img src="assets/img/ecommerce/lazada.png" alt="" width="30px">
                             </div>
-                            Lazada</a>
+                        Lazada</a>
                     </div>
                     <small class="d-block my-3 text-secondary">ATAU</small>
                     <a href="#" class="btn btn-success"><i class="bi bi-whatsapp"></i> Pesan via Whatsapp</a>
@@ -290,30 +290,36 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="assets/js/scroll-to-topnav.js"></script>
     <script>
-		// thumb
-      var swiper = new Swiper(".swiper-thumb", {
-         spaceBetween: 10,
-         slidesPerView: 4,
-         freeMode: true,
-         watchSlidesProgress: true,
-         direction: "vertical",
-     });
-		// prev
-      var swiper2 = new Swiper(".swiper-preview", {
-         spaceBetween: 10,
-         navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        thumbs: {
-            swiper: swiper,
-        },
-    });
-</script>
-<script>
+        var swiper = new Swiper(".swiper-thumb", {
+            spaceBetween: 10,
+            slidesPerView: 4,
+            freeMode: true,
+            watchSlidesProgress: true,
+            direction: "vertical",
+        });
+
+        var swiper2 = new Swiper(".swiper-preview", {
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            thumbs: {
+                swiper: swiper,
+            },
+        });
+    </script>
+    <script>
 		// Instantiate EasyZoom instances
-  var $easyzoom = $('.easyzoom').easyZoom();
-</script>
+      var $easyzoom = $('.easyzoom').easyZoom();
+    </script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'id', 
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
 
 </body>
 </html>
