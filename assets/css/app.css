@@ -81,6 +81,17 @@ section#product .card img {
 	opacity: 1;
 }
 
+section#product-list .card .img-product{
+	overflow: hidden;
+}
+section#product-list .card img {
+	border-radius: 0;
+	transition: .7s all ease;
+}
+section#product-list .card:hover img {
+	transform: scale(1.1);
+}
+
 .owl-carousel .owl-items {
 	height: 300px;
 }
