@@ -41,13 +41,13 @@ section#start #banner-img img:last-child:hover {
 	transform: scale(1.1);
 }
 
-section#about {
-	background-image: url(https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2023/06/24/mengenal-motif-batik-khas-kabupaten-batang-rifaiyah-191581670.jpg);
+section#kemitraan {
+	background-image: url("https://cdn1-production-images-kly.akamaized.net/vNpVvsHDyz1bXMeFVT91FkBptLE=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2783383/original/021509300_1555730677-iStock-952625346.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-blend-mode: multiply;
-	background-color: var(--bs-dark);
+	background-color: #555;
 }
 
 section#fitur .card:hover {
