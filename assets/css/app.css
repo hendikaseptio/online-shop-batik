@@ -24,15 +24,23 @@ section#start #banner-img {
 section#start #banner-img img {
 	position: absolute;	
 	left: 0;
-	width: 300px;
-	height: 450px;
+	width: 100%;
+	height: 100%;
+	max-width: 300px;
+	max-height: 450px;
 	object-fit: cover;
 	object-position: top;
 	transition: .7s ease-in-out;
 }
 section#start #banner-img img:first-child {
-	transform: rotate(10deg) translate(20px);
+	transform: rotate(5deg) translate(20px);
 	filter: brightness(0.5);
+}
+@media (max-width : 400px) {
+	section#start #banner-img img:first-child {
+		transform: scale(0.9) translateY(-60px);
+		filter: brightness(0.5);
+	}
 }
 section#start #banner-img img:last-child {
 	box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;

@@ -37,7 +37,9 @@
     <header id="navbar_top">
         <nav class="navbar navbar-expand-lg bg-white py-3">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="assets/img/logo/logo-gold.png" alt="logo" width="200px"></a>
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo/logo-gold.png" alt="logo" class="d-none d-sm-block" width="200px">
+                    <img src="assets/img/logo/icon.png" alt="logo" class="d-sm-none d-block" width="50px"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -162,42 +164,39 @@
     <section>
         <div class="container">
             <h2 class="text-uppercase mb-4">Pilihan Bahan Kain Batik Pekalongan</h2>
-            <div class="swiper mySwiper mt-5">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide mx-2">
-                        <div class="card">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLxs5lrG3SqkDLG-oL9F4t6wR6oTteVfPisQ&usqp=CAU" alt="">
-                            <div class="overlay">
-                                <span class="fs-4 text-uppercase">Lokatex</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide mx-2">
-                        <div class="card">
-                            <img src="https://batiksalma.com/wp-content/uploads/2022/11/BATIK-SALMA-Kain-Batik-Tulis-Mega-Mendung-Hitam-Katun-Primisima-2-Meter-3-scaled.jpg" alt="">
-                            <div class="overlay">
-                                <span class="fs-4 text-uppercase">Prima</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide mx-2">
-                        <div class="card">
-                            <img src="https://ikm.cirebonkota.go.id/wp-content/uploads/2020/08/IMG-20200824-WA0076.jpg" alt="">
-                            <div class="overlay">
-                                <span class="fs-4 text-uppercase">Dobby</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide mx-2">
-                        <div class="card">
-                            <img src="https://image.popbela.com/content-images/post/20201003/92348601-229615681480928-8407515835036362190-n-7793dd6a089d95cf3c7c652ed9b11506.jpg?width=1600&format=webp&w=1600" alt="">
-                            <div class="overlay">
-                                <span class="fs-4 text-uppercase">Primis</span>
-                            </div>
+            <div class="owl-carousel owl-theme mt-5">
+                <div class="owl-items" style="width: 400px;">
+                    <div class="card h-100">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLxs5lrG3SqkDLG-oL9F4t6wR6oTteVfPisQ&usqp=CAU" alt="">
+                        <div class="overlay">
+                            <span class="fs-4 text-uppercase">Lokatex</span>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="owl-items" style="width: 400px;">
+                    <div class="card h-100">
+                        <img src="https://batiksalma.com/wp-content/uploads/2022/11/BATIK-SALMA-Kain-Batik-Tulis-Mega-Mendung-Hitam-Katun-Primisima-2-Meter-3-scaled.jpg" alt="">
+                        <div class="overlay">
+                            <span class="fs-4 text-uppercase">Prima</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-items" style="width: 400px;">
+                    <div class="card h-100">
+                        <img src="https://ikm.cirebonkota.go.id/wp-content/uploads/2020/08/IMG-20200824-WA0076.jpg" alt="">
+                        <div class="overlay">
+                            <span class="fs-4 text-uppercase">Dobby</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-items" style="width: 400px;">
+                    <div class="card h-100">
+                        <img src="https://image.popbela.com/content-images/post/20201003/92348601-229615681480928-8407515835036362190-n-7793dd6a089d95cf3c7c652ed9b11506.jpg?width=1600&format=webp&w=1600" alt="">
+                        <div class="overlay">
+                            <span class="fs-4 text-uppercase">Primis</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -220,7 +219,7 @@
     <footer class="bg-dark text-white">
         <div class="container">
             <div class="row align-items-start">
-                <div class="col-md-4">
+                <div class="col-md-4 py-4 py-md-0">
                     <img src="assets/img/logo/logo-white.png" class="w-50 mb-4" alt="">
                     <p>Saatnya tampil stylish dan trendy dengan batik modern. Bahan berkualitas, inovasi model, harga ramah kantong dan bergaransi.</p>
                     <div class="d-flex ">
@@ -229,14 +228,14 @@
                         <a href="#" class="fs-5 m-2 text-white"><i class="bi bi-youtube"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 py-4 py-md-0">
                     <h5 class="text-uppercase mb-4">Informasi Lainya</h5>
                     <a href="#" class="d-block text-white text-decoration-none"><i class="bi bi-link"></i> Informasi Pengiriman</a>
                     <a href="#" class="d-block text-white text-decoration-none"><i class="bi bi-link"></i> Kebijakan pribadi</a>
                     <a href="#" class="d-block text-white text-decoration-none"><i class="bi bi-link"></i> Syarat & Ketentuan</a>
                     <a href="#" class="d-block text-white text-decoration-none"><i class="bi bi-link"></i> Pelayanan pelanggan</a>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 py-4 py-md-0">
                     <h5 class="text-uppercase mb-4">KONTAK</h5>
                     <div class="contact-info mb-2"><i class="me-2 bi bi-telephone"></i> +62 856-0076-3166</div>
                     <div class="contact-info mb-2"><i class="me-2 bi bi-envelope-open"></i> batikpekalongan@gmail.com</div>
@@ -245,15 +244,17 @@
             </div>
             <hr class=" mt-5">
             <div class="d-flex">
-                <small>hak cipta © Batik Pekalongan 2023 Seluruh hak cipta | tema ini dibuat dengan <i class="bi bi-heart-fill text-danger"></i> </small>
+                <small class="pe-3">hak cipta © Batik Pekalongan 2023 Seluruh hak cipta | tema ini dibuat dengan <i class="bi bi-heart-fill text-danger"></i> </small>
                 <small class="ms-auto"><a href="#start" class="text-decoration-none text-white">kembali ke atas <i class="bi bi-arrow-up"></i></a></small> 
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="assets/js/scroll-to-topnav.js"></script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="assets/js/plugins/owl.carousel.min.js"></script>
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({pageLanguage: 'id', 
@@ -271,21 +272,22 @@
                 disableOnInteraction: false,
             },
         });
-        var swiper = new Swiper(".mySwiper", {
-            effect: "coverflow",
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: 3,
-            coverflowEffect: {
-                rotate: 50,
-                stretch: 0,
-                depth: 200,
-                modifier: 1,
-                slideShadows: false,
-            },
-            // pagination: {
-            //  el: ".swiper-pagination",
-            // },
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                center: true,
+                items:3,
+                loop:true,
+                margin:10,
+                autoWidth:true,
+                autoplay:true,
+                autoplayTimeout:2000,
+                autoplayHoverPause:true,
+                responsive:{
+                    600:{
+                        items:4
+                    }
+                }
+            });
         });
     </script>
 </body>
